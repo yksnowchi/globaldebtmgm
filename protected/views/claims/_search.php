@@ -10,7 +10,7 @@
 		<?php echo $form->textField($model,'id'); ?>
 	</div>
 
-	<div class="row">
+	<!--<div class="row">
 		<?php echo $form->label($model,'Fk_clientid'); ?>
 		<?php echo $form->textField($model,'Fk_clientid'); ?>
 	</div>
@@ -18,7 +18,7 @@
 	<div class="row">
 		<?php echo $form->label($model,'Fk_creditor_id'); ?>
 		<?php echo $form->textField($model,'Fk_creditor_id'); ?>
-	</div>
+	</div>-->
 
 	<div class="row">
 		<?php echo $form->label($model,'file_number'); ?>

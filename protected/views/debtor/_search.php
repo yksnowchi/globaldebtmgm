@@ -10,7 +10,7 @@
 		<?php echo $form->textField($model,'id'); ?>
 	</div>
 
-	<div class="row">
+	<!--<div class="row">
 		<?php echo $form->label($model,'Fk_client_id'); ?>
 		<?php echo $form->textField($model,'Fk_client_id'); ?>
 	</div>
@@ -53,7 +53,7 @@
 	<div class="row">
 		<?php echo $form->label($model,'Fk_client_progress_id'); ?>
 		<?php echo $form->textField($model,'Fk_client_progress_id'); ?>
-	</div>
+	</div>-->
 
 	<div class="row">
 		<?php echo $form->label($model,'firstname'); ?>
@@ -95,7 +95,7 @@
 		<?php echo $form->textField($model,'correspondence_language'); ?>
 	</div>
 
-	<div class="row">
+	<!--<div class="row">
 		<?php echo $form->label($model,'date_filed_chapter11'); ?>
 		<?php echo $form->textField($model,'date_filed_chapter11'); ?>
 	</div>
@@ -103,7 +103,7 @@
 	<div class="row">
 		<?php echo $form->label($model,'date_filed_chapter13'); ?>
 		<?php echo $form->textField($model,'date_filed_chapter13'); ?>
-	</div>
+	</div>-->
 
 	<div class="row">
 		<?php echo $form->label($model,'home_telephone'); ?>
