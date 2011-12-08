@@ -48,7 +48,6 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'savings',
 		'assigned_to',
 		'negotiator',
-		/*
 		'client_services',
 		'account_managers',
 		'total_debt',
@@ -56,11 +55,10 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'enrollment_date',
 		'status',
 		'comments',
-		'created_at',
+		/*'created_at',
 		'updated_at',
-		*/
 		array(
 			'class'=>'CButtonColumn',
-		),
+		),*/
 	),
 )); ?>

@@ -43,21 +43,19 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'filter'=>$model,
 	'columns'=>array(
 		'id',
-		'Fk_clientid',
-		'Fk_creditor_id',
+		/*'Fk_clientid',
+		'Fk_creditor_id',*/
 		'file_number',
 		'type_of_debt',
 		'amount_of_claim',
-		/*
 		'days_behind',
 		'settlement_date',
 		'settlement_amount',
 		'savings',
-		'created_at',
+		/*'created_at',
 		'updated_at',
-		*/
 		array(
 			'class'=>'CButtonColumn',
-		),
+		),*/
 	),
 )); ?>

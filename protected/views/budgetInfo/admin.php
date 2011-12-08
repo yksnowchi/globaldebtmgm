@@ -48,7 +48,6 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'monthly_utilites',
 		'monthly_grocery_expenses',
 		'monthly_insurance_payments',
-		/*
 		'rrsp',
 		'food_stamp_or_other',
 		'spouse_monthly_takehome_pay',
@@ -61,11 +60,10 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'total_expenses_to_income_variance',
 		'mortgage',
 		'rent',
-		'created_at',
+		/*'created_at',
 		'updated_at',
-		*/
 		array(
 			'class'=>'CButtonColumn',
-		),
+		),*/
 	),
 )); ?>

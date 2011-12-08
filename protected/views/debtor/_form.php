@@ -10,60 +10,6 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Fk_client_id'); ?>
-		<?php echo $form->textField($model,'Fk_client_id'); ?>
-		<?php echo $form->error($model,'Fk_client_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Fk_debtor_additional_info_id'); ?>
-		<?php echo $form->textField($model,'Fk_debtor_additional_info_id'); ?>
-		<?php echo $form->error($model,'Fk_debtor_additional_info_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Fk_creditor_id'); ?>
-		<?php echo $form->textField($model,'Fk_creditor_id'); ?>
-		<?php echo $form->error($model,'Fk_creditor_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Fk_negotiator_id'); ?>
-		<?php echo $form->textField($model,'Fk_negotiator_id'); ?>
-		<?php echo $form->error($model,'Fk_negotiator_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Fk_budget_info_id'); ?>
-		<?php echo $form->textField($model,'Fk_budget_info_id'); ?>
-		<?php echo $form->error($model,'Fk_budget_info_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Fk_program_info_id'); ?>
-		<?php echo $form->textField($model,'Fk_program_info_id'); ?>
-		<?php echo $form->error($model,'Fk_program_info_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Fk_amortization_id'); ?>
-		<?php echo $form->textField($model,'Fk_amortization_id'); ?>
-		<?php echo $form->error($model,'Fk_amortization_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Fk_settlement_offer_id'); ?>
-		<?php echo $form->textField($model,'Fk_settlement_offer_id'); ?>
-		<?php echo $form->error($model,'Fk_settlement_offer_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Fk_client_progress_id'); ?>
-		<?php echo $form->textField($model,'Fk_client_progress_id'); ?>
-		<?php echo $form->error($model,'Fk_client_progress_id'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'firstname'); ?>
 		<?php echo $form->textField($model,'firstname',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'firstname'); ?>
@@ -207,7 +153,7 @@
 		<?php echo $form->error($model,'comments'); ?>
 	</div>
 
-	<div class="row">
+	<!--<div class="row">
 		<?php echo $form->labelEx($model,'created_at'); ?>
 		<?php echo $form->textField($model,'created_at'); ?>
 		<?php echo $form->error($model,'created_at'); ?>
@@ -217,7 +163,7 @@
 		<?php echo $form->labelEx($model,'updated_at'); ?>
 		<?php echo $form->textField($model,'updated_at'); ?>
 		<?php echo $form->error($model,'updated_at'); ?>
-	</div>
+	</div>-->
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

@@ -43,16 +43,15 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'filter'=>$model,
 	'columns'=>array(
 		'id',
-		'Fk_client_id',
+		/*'Fk_client_id',
 		'Fk_debtor_additional_info_id',
 		'Fk_creditor_id',
 		'Fk_negotiator_id',
 		'Fk_budget_info_id',
-		/*
 		'Fk_program_info_id',
 		'Fk_amortization_id',
 		'Fk_settlement_offer_id',
-		'Fk_client_progress_id',
+		'Fk_client_progress_id',*/
 		'firstname',
 		'lastname',
 		'date_of_birth',
@@ -61,8 +60,8 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'credit_card_number',
 		'drivers_licence',
 		'correspondence_language',
-		'date_filed_chapter11',
-		'date_filed_chapter13',
+		/*'date_filed_chapter11',
+		'date_filed_chapter13',*/
 		'home_telephone',
 		'mobile_telephone',
 		'other_telephone',
@@ -77,11 +76,11 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'employment_disability',
 		'pension',
 		'comments',
-		'created_at',
+		/*'created_at',
 		'updated_at',
-		*/
 		array(
 			'class'=>'CButtonColumn',
-		),
+		),*/
+
 	),
 )); ?>

@@ -27,7 +27,7 @@
 		<?php echo $form->error($model,'email'); ?>
 	</div>
 
-	<div class="row">
+	<!--<div class="row">
 		<?php echo $form->labelEx($model,'remember_me'); ?>
 		<?php echo $form->textField($model,'remember_me'); ?>
 		<?php echo $form->error($model,'remember_me'); ?>
@@ -49,7 +49,7 @@
 		<?php echo $form->labelEx($model,'updated_at'); ?>
 		<?php echo $form->textField($model,'updated_at'); ?>
 		<?php echo $form->error($model,'updated_at'); ?>
-	</div>
+	</div>-->
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

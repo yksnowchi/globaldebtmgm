@@ -48,16 +48,15 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'adminstration_fee',
 		'maintenance_fee',
 		'settlement_savings_fund',
-		/*
 		'total_monthly_cost_total',
 		'total_adminstration_fee',
 		'total_maintenance_fee',
 		'total_settlement_savings_fund',
+		/*
 		'created_at',
 		'updated_at',
-		*/
 		array(
 			'class'=>'CButtonColumn',
-		),
+		),*/
 	),
 )); ?>

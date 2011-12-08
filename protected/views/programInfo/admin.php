@@ -48,7 +48,6 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'original_debt',
 		'monthly_income',
 		'saf_monthly_payment',
-		/*
 		'nsf_amount',
 		'monthly_payment_due_date',
 		'enrollment_date',
@@ -65,11 +64,12 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'service_fee_perc_automatic',
 		'service_fee_manual',
 		'service_fee_perc_manual',
+		/*
 		'created_at',
 		'updated_at',
-		*/
 		array(
 			'class'=>'CButtonColumn',
-		),
+		),	*/
+
 	),
 )); ?>

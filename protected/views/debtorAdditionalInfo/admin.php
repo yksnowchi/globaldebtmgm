@@ -48,7 +48,6 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'spouse_address',
 		'spouse_monthly_income',
 		'spouse_gross_monthly_income',
-		/*
 		'spouse_employer',
 		'spouse_employment_occupation',
 		'spouse_employment_work_years',
@@ -56,11 +55,10 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'spouse_drivers_licence',
 		'spouse_active_duty',
 		'comments',
-		'created_at',
+		/*'created_at',
 		'updated_at',
-		*/
 		array(
 			'class'=>'CButtonColumn',
-		),
+		),*/
 	),
 )); ?>

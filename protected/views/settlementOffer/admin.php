@@ -46,10 +46,10 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'debtor_id',
 		'creditor_id',
 		'negotiator_id',
-		'created_at',
+		/*'created_at',
 		'updated_at',
 		array(
 			'class'=>'CButtonColumn',
-		),
+		),*/
 	),
 )); ?>

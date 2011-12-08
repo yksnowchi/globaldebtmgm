@@ -10,18 +10,6 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Fk_clientid'); ?>
-		<?php echo $form->textField($model,'Fk_clientid'); ?>
-		<?php echo $form->error($model,'Fk_clientid'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Fk_creditor_id'); ?>
-		<?php echo $form->textField($model,'Fk_creditor_id'); ?>
-		<?php echo $form->error($model,'Fk_creditor_id'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'file_number'); ?>
 		<?php echo $form->textField($model,'file_number',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'file_number'); ?>
@@ -63,7 +51,7 @@
 		<?php echo $form->error($model,'savings'); ?>
 	</div>
 
-	<div class="row">
+	<!--<div class="row">
 		<?php echo $form->labelEx($model,'created_at'); ?>
 		<?php echo $form->textField($model,'created_at'); ?>
 		<?php echo $form->error($model,'created_at'); ?>
@@ -73,7 +61,7 @@
 		<?php echo $form->labelEx($model,'updated_at'); ?>
 		<?php echo $form->textField($model,'updated_at'); ?>
 		<?php echo $form->error($model,'updated_at'); ?>
-	</div>
+	</div>-->
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
