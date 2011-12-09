@@ -11,14 +11,8 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'file_number'); ?>
-		<?php echo $form->textField($model,'file_number',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->textField($model,'file_number'); ?>
 		<?php echo $form->error($model,'file_number'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'type_of_debt'); ?>
-		<?php echo $form->textField($model,'type_of_debt',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'type_of_debt'); ?>
 	</div>
 
 	<div class="row">
@@ -49,6 +43,12 @@
 		<?php echo $form->labelEx($model,'savings'); ?>
 		<?php echo $form->textField($model,'savings'); ?>
 		<?php echo $form->error($model,'savings'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'type_of_debt'); ?>
+		<?php echo $form->textField($model,'type_of_debt'); ?>
+		<?php echo $form->error($model,'type_of_debt'); ?>
 	</div>
 
 	<!--<div class="row">

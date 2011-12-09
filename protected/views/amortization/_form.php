@@ -39,7 +39,7 @@
 		<?php echo $form->error($model,'settlement_savings_fund'); ?>
 	</div>
 
-	<div class="row">
+	<!--<div class="row">
 		<?php echo $form->labelEx($model,'total_monthly_cost_total'); ?>
 		<?php echo $form->textField($model,'total_monthly_cost_total'); ?>
 		<?php echo $form->error($model,'total_monthly_cost_total'); ?>
@@ -63,7 +63,7 @@
 		<?php echo $form->error($model,'total_settlement_savings_fund'); ?>
 	</div>
 
-	<!--<div class="row">
+	<div class="row">
 		<?php echo $form->labelEx($model,'created_at'); ?>
 		<?php echo $form->textField($model,'created_at'); ?>
 		<?php echo $form->error($model,'created_at'); ?>

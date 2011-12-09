@@ -5,7 +5,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Create BudgetInfo', 'url'=>array('create')),
-	array('label'=>'Manage BudgetInfo', 'url'=>array('admin')),
+	/*array('label'=>'Manage BudgetInfo', 'url'=>array('admin')),*/
 );
 ?>
 
